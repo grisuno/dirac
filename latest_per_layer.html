@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Weight Space - Per Layer (PCA)</title>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <style>
+        body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+        #plot { width: 100vw; height: 100vh; }
+        #info { position: absolute; top: 10px; left: 10px; background: rgba(0,0,0,0.8); 
+                 color: white; padding: 15px; border-radius: 8px; font-size: 12px; z-index: 1000; }
+    </style>
+</head>
+<body>
+    <div id="info">
+        <strong>Weight Space - Per Layer (PCA)</strong><br>
+        Points: <span id="count">12</span><br>
+        Method: Standard PCA/t-SNE<br>
+        <hr>
+        Controls:<br>
+        - Drag to rotate<br>
+        - Scroll to zoom<br>
+        - Double-click to reset
+    </div>
+    <div id="plot"></div>
+    <script>
+        const labels = ["expansion_proj.bias", "spectral_layers.1.kernel_real", "spectral_layers.0.kernel_real", "expansion_proj.weight", "spectral_layers.1.kernel_imag", "contraction_proj.weight", "input_proj.bias", "spectral_layers.0.kernel_imag", "input_proj.weight", "output_proj.bias", "output_proj.weight", "contraction_proj.bias"];
+        const colorIndices = [8, 6, 3, 0, 2, 7, 1, 4, 5, 11, 10, 9];
+        const x = [-0.49546578526496887, -0.5236678123474121, -0.5962234735488892, -0.5387312769889832, 646.7280883789062, -221.3238983154297, -1024.9697265625, 603.8287963867188, -0.520615816116333, -0.5242999792098999, -0.5414547324180603, -0.5237642526626587];
+        const y = [0.25756338238716125, 0.2325207144021988, 0.3385423421859741, 0.23193541169166565, 522.2783813476562, -1125.7572021484375, 583.280029296875, 18.07836151123047, 0.3589700758457184, 0.23956556618213654, 0.22305071353912354, 0.23747119307518005];
+        const z = [1.8541388511657715, 1.8912184238433838, 1.8099290132522583, 1.8813585042953491, -851.807373046875, -311.54986572265625, 129.8409881591797, 1018.5422973632812, 1.8713141679763794, 1.8844738006591797, 1.8957926034927368, 1.8859034776687622];
+        const hoverText = ["Point 0", "Point 1", "Point 2", "Point 3", "Point 4", "Point 5", "Point 6", "Point 7", "Point 8", "Point 9", "Point 10", "Point 11"];
+        
+        // Color palette
+        const colors = [
+            '#e41a1c', '#377eb8', '#4daf4a', '#984ea3', '#ff7f00',
+            '#ffff33', '#a65628', '#f781bf', '#999999', '#66c2a5',
+            '#fc8d62', '#8da0cb', '#e78ac3', '#a6d854', '#ffd92f'
+        ];
+        
+        // Create traces per label
+        const traces = [];
+        for (let i = 0; i < labels.length; i++) {
+            const idx = colorIndices.map((c, j) => c === i ? j : -1).filter(j => j >= 0);
+            
+            traces.push({
+                name: labels[i],
+                x: idx.map(j => x[j]),
+                y: idx.map(j => y[j]),
+                z: idx.map(j => z[j]),
+                text: idx.map(j => hoverText[j]),
+                mode: 'markers',
+                type: 'scatter3d',
+                marker: {
+                    size: 3,
+                    color: colors[i % colors.length],
+                    opacity: 0.7
+                },
+                hoverinfo: 'text+z'
+            });
+        }
+        
+        const layout = {
+            title: '',
+            autosize: true,
+            showlegend: true,
+            scene: {
+                aspectmode: 'data',
+                xaxis: { title: 'PC1', gridcolor: '#333' },
+                yaxis: { title: 'PC2', gridcolor: '#333' },
+                zaxis: { title: 'PC3', gridcolor: '#333' },
+                bgcolor: '#1a1a2e'
+            },
+            paper_bgcolor: '#1a1a2e',
+            plot_bgcolor: '#1a1a2e',
+            legend: {
+                font: { color: '#fff' },
+                bgcolor: 'rgba(0,0,0,0.5)'
+            },
+            margin: { l: 0, r: 0, b: 0, t: 0 }
+        };
+        
+        const config = {
+            responsive: true,
+            displayModeBar: true,
+            modeBarButtonsToRemove: ['toImage', 'sendDataToCloud']
+        };
+        
+        Plotly.newPlot('plot', traces, layout, config);
+    </script>
+</body>
+</html>
