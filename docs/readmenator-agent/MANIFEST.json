@@ -1,0 +1,22 @@
+{
+  "tool": "readmenator",
+  "generated_at": "2026-09-16T04:58:00Z",
+  "project_root": "/tmp/readmenator_dirac_lm90428x",
+  "files": 10,
+  "symbols": 532,
+  "imports": 4343,
+  "resolved_imports": 1,
+  "security_findings": 0,
+  "languages": {
+    "py": 9,
+    "sh": 1
+  },
+  "entrypoints": [],
+  "start_here": "INDEX.md",
+  "workflow": [
+    "grep -n '<keyword>' INDEX.md",
+    "cat KB_<subsystem>.md",
+    "grep -n '<file>' ARCHITECTURE.md SYMBOLS.md"
+  ],
+  "regenerate": "readmenator . --rebuild"
+}
