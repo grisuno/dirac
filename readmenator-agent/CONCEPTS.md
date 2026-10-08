@@ -1,0 +1,120 @@
+# Concepts
+
+Nouns map atomically to file sets (EXTRACTED); verbs aggregate structural edges (INFERRED).
+
+- `weight` | files=7 | mentions=52 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `latent_space_visualizer.py`, `lidar_interactive_viewer.py`, `visualize_lidar_csv2.py`, `weight_3d_standard.py`, `weight_space_lidar.py`
+- `space` | files=6 | mentions=35 | `dirac_crystallography_suite.py`, `latent_space_visualizer.py`, `lidar_interactive_viewer.py`, `visualize_lidar_csv2.py`, `weight_3d_standard.py`, `weight_space_lidar.py`
+- `generate` | files=6 | mentions=22 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `lidar_interactive_viewer.py`, `relativistic_hydrogen.py`, `weight_3d_standard.py`, `weight_space_lidar.py`
+- `load` | files=6 | mentions=16 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `lidar_interactive_viewer.py`, `relativistic_hydrogen.py`, `weight_3d_standard.py`, `weight_space_lidar.py`
+- `visualization` | files=6 | mentions=15 | `dirac_crystallography_suite.py`, `lidar_interactive_viewer.py`, `relativistic_hydrogen.py`, `visualize_lidar_csv2.py`, `weight_3d_standard.py`, `weight_space_lidar.py`
+- `compute` | files=5 | mentions=74 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `latent_space_visualizer.py`, `relativistic_hydrogen.py`, `weight_space_lidar.py`
+- `metrics` | files=5 | mentions=31 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `latent_space_visualizer.py`, `weight_3d_standard.py`, `weight_space_lidar.py`
+- `checkpoint` | files=5 | mentions=28 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`, `weight_3d_standard.py`, `weight_space_lidar.py`
+- `layer` | files=5 | mentions=20 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`, `weight_3d_standard.py`, `weight_space_lidar.py`
+- `point` | files=5 | mentions=20 | `dirac_crystallography_suite.py`, `lidar_interactive_viewer.py`, `visualize_lidar_csv2.py`, `weight_3d_standard.py`, `weight_space_lidar.py`
+- `extract` | files=5 | mentions=19 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `latent_space_visualizer.py`, `weight_3d_standard.py`, `weight_space_lidar.py`
+- `apply` | files=5 | mentions=17 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`, `weight_3d_standard.py`, `weight_space_lidar.py`
+- `using` | files=5 | mentions=13 | `dirac_crystal2.py`, `lidar_interactive_viewer.py`, `relativistic_hydrogen.py`, `weight_3d_standard.py`, `weight_space_lidar.py`
+- `run` | files=5 | mentions=10 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `latent_space_visualizer.py`, `relativistic_hydrogen.py`, `weight_space_lidar.py`
+- `calculator` | files=4 | mentions=27 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`, `weight_space_lidar.py`
+- `dar` | files=4 | mentions=15 | `lidar_interactive_viewer.py`, `visualize_lidar_csv2.py`, `weight_3d_standard.py`, `weight_space_lidar.py`
+- `equation` | files=4 | mentions=14 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`, `weight_space_lidar.py`
+- `evolution` | files=4 | mentions=14 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`, `weight_space_lidar.py`
+- `network` | files=4 | mentions=14 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`, `weight_space_lidar.py`
+- `visualize` | files=4 | mentions=14 | `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`, `visualize_lidar_csv2.py`, `weight_space_lidar.py`
+- `csv` | files=4 | mentions=11 | `latent_space_visualizer.py`, `lidar_interactive_viewer.py`, `visualize_lidar_csv2.py`, `weight_space_lidar.py`
+- `logger` | files=4 | mentions=10 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`, `weight_space_lidar.py`
+- `batch` | files=4 | mentions=9 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`, `weight_space_lidar.py`
+- `create` | files=4 | mentions=9 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`, `weight_space_lidar.py`
+- `full` | files=4 | mentions=9 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`, `weight_space_lidar.py`
+- `neural` | files=4 | mentions=9 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`, `weight_space_lidar.py`
+- `level` | files=4 | mentions=7 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`, `weight_space_lidar.py`
+- `visualizer` | files=4 | mentions=7 | `dirac_crystallography_suite.py`, `latent_space_visualizer.py`, `relativistic_hydrogen.py`, `weight_3d_standard.py`
+- `dynamics` | files=4 | mentions=6 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`, `weight_space_lidar.py`
+- `factory` | files=4 | mentions=6 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`, `weight_space_lidar.py`
+- `config` | files=4 | mentions=4 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `latent_space_visualizer.py`, `relativistic_hydrogen.py`
+- `epoch` | files=4 | mentions=4 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `latent_space_visualizer.py`, `weight_space_lidar.py`
+- `dirac` | files=3 | mentions=66 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`
+- `hamiltonian` | files=3 | mentions=22 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`
+- `spectral` | files=3 | mentions=21 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`
+- `spinor` | files=3 | mentions=20 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`
+- `energy` | files=3 | mentions=19 | `dirac_crystal2.py`, `relativistic_hydrogen.py`, `weight_space_lidar.py`
+- `alpha` | files=3 | mentions=18 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`
+- `component` | files=3 | mentions=17 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`
+- `cloud` | files=3 | mentions=15 | `lidar_interactive_viewer.py`, `visualize_lidar_csv2.py`, `weight_space_lidar.py`
+- `weights` | files=3 | mentions=14 | `latent_space_visualizer.py`, `weight_3d_standard.py`, `weight_space_lidar.py`
+- `calculate` | files=3 | mentions=13 | `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`, `weight_space_lidar.py`
+- `operator` | files=3 | mentions=13 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`
+- `standard` | files=3 | mentions=12 | `dirac_crystal2.py`, `relativistic_hydrogen.py`, `weight_3d_standard.py`
+- `time` | files=3 | mentions=12 | `dirac_crystal2.py`, `relativistic_hydrogen.py`, `weight_space_lidar.py`
+- `interactive` | files=3 | mentions=11 | `lidar_interactive_viewer.py`, `relativistic_hydrogen.py`, `weight_3d_standard.py`
+- `topological` | files=3 | mentions=11 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`
+- `curvature` | files=3 | mentions=10 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `weight_space_lidar.py`
+- `gamma` | files=3 | mentions=10 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`
+- `matrices` | files=3 | mentions=10 | `dirac_crystal2.py`, `dirac_crystallography_suite.py`, `relativistic_hydrogen.py`
+
+## Verb Edges
+
+- `compute` --depends_on--> `alpha` (strength 1.00)
+- `compute` --depends_on--> `apply` (strength 1.00)
+- `compute` --depends_on--> `batch` (strength 1.00)
+- `compute` --depends_on--> `calculator` (strength 1.00)
+- `compute` --depends_on--> `checkpoint` (strength 1.00)
+- `compute` --depends_on--> `component` (strength 1.00)
+- `compute` --depends_on--> `config` (strength 1.00)
+- `compute` --depends_on--> `create` (strength 1.00)
+- `compute` --depends_on--> `curvature` (strength 1.00)
+- `compute` --depends_on--> `dirac` (strength 1.00)
+- `compute` --depends_on--> `dynamics` (strength 1.00)
+- `compute` --depends_on--> `energy` (strength 1.00)
+- `compute` --depends_on--> `epoch` (strength 1.00)
+- `compute` --depends_on--> `equation` (strength 1.00)
+- `compute` --depends_on--> `evolution` (strength 1.00)
+- `compute` --depends_on--> `extract` (strength 1.00)
+- `compute` --depends_on--> `factory` (strength 1.00)
+- `compute` --depends_on--> `full` (strength 1.00)
+- `compute` --depends_on--> `gamma` (strength 1.00)
+- `compute` --depends_on--> `generate` (strength 1.00)
+- `compute` --depends_on--> `hamiltonian` (strength 1.00)
+- `compute` --depends_on--> `layer` (strength 1.00)
+- `compute` --depends_on--> `level` (strength 1.00)
+- `compute` --depends_on--> `load` (strength 1.00)
+- `compute` --depends_on--> `logger` (strength 1.00)
+- `compute` --depends_on--> `matrices` (strength 1.00)
+- `compute` --depends_on--> `metrics` (strength 1.00)
+- `compute` --depends_on--> `network` (strength 1.00)
+- `compute` --depends_on--> `neural` (strength 1.00)
+- `compute` --depends_on--> `operator` (strength 1.00)
+- `compute` --depends_on--> `run` (strength 1.00)
+- `compute` --depends_on--> `spectral` (strength 1.00)
+- `compute` --depends_on--> `spinor` (strength 1.00)
+- `compute` --depends_on--> `standard` (strength 1.00)
+- `compute` --depends_on--> `time` (strength 1.00)
+- `compute` --depends_on--> `topological` (strength 1.00)
+- `compute` --depends_on--> `using` (strength 1.00)
+- `compute` --depends_on--> `weight` (strength 1.00)
+- `config` --depends_on--> `alpha` (strength 1.00)
+- `config` --depends_on--> `apply` (strength 1.00)
+- `config` --depends_on--> `batch` (strength 1.00)
+- `config` --depends_on--> `calculator` (strength 1.00)
+- `config` --depends_on--> `checkpoint` (strength 1.00)
+- `config` --depends_on--> `component` (strength 1.00)
+- `config` --depends_on--> `compute` (strength 1.00)
+- `config` --depends_on--> `create` (strength 1.00)
+- `config` --depends_on--> `curvature` (strength 1.00)
+- `config` --depends_on--> `dirac` (strength 1.00)
+- `config` --depends_on--> `dynamics` (strength 1.00)
+- `config` --depends_on--> `energy` (strength 1.00)
+
+## Dialectic
+
+- Thesis: `alpha` centralizes 3 files; Antithesis: `apply` pulls 5 files with 3 shared (Jaccard 0.60); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `alpha` centralizes 3 files; Antithesis: `batch` pulls 4 files with 3 shared (Jaccard 0.75); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `alpha` centralizes 3 files; Antithesis: `calculate` pulls 3 files with 2 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `alpha` centralizes 3 files; Antithesis: `calculator` pulls 4 files with 3 shared (Jaccard 0.75); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `alpha` centralizes 3 files; Antithesis: `checkpoint` pulls 5 files with 3 shared (Jaccard 0.60); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `alpha` centralizes 3 files; Antithesis: `component` pulls 3 files with 3 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `alpha` centralizes 3 files; Antithesis: `compute` pulls 5 files with 3 shared (Jaccard 0.60); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
+- Thesis: `alpha` centralizes 3 files; Antithesis: `config` pulls 4 files with 3 shared (Jaccard 0.75); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
+- Thesis: `alpha` centralizes 3 files; Antithesis: `create` pulls 4 files with 3 shared (Jaccard 0.75); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `alpha` centralizes 3 files; Antithesis: `curvature` pulls 3 files with 2 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `bridges` explicit?

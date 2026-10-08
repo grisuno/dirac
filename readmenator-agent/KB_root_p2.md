@@ -1,0 +1,117 @@
+# Subsystem: root (page 2 of 2)
+Previous: [KB_root.md](KB_root.md)
+
+## weight_space_lidar.py
+- Doc: WeightSpaceLiDAR: Synthetic LiDAR for Neural Network Weight Space Navigation  A production-grade...
+- Layer: utility
+- Language: py
+- Symbols:
+  - `WeightSpaceLiDARConfig` (class, line 72) `class WeightSpaceLiDARConfig`
+  - `ILogger` (class, line 167) `class ILogger(Protocol)`
+  - `LoggerFactory` (class, line 176) `class LoggerFactory`
+  - `IWeightExtractor` (class, line 194) `class IWeightExtractor(Protocol)`
+  - `IDimensionalityReducer` (class, line 207) `class IDimensionalityReducer(Protocol)`
+  - `IRangeCalculator` (class, line 220) `class IRangeCalculator(Protocol)`
+  - `ITransmissionCalculator` (class, line 229) `class ITransmissionCalculator(Protocol)`
+  - `IPointCloudGenerator` (class, line 238) `class IPointCloudGenerator(Protocol)`
+  - `DefaultWeightExtractor` (class, line 251) `class DefaultWeightExtractor`
+  - `PCAReducer` (class, line 304) `class PCAReducer`
+  - `TSNEReducer` (class, line 340) `class TSNEReducer`
+  - `FrobeniusRangeCalculator` (class, line 374) `class FrobeniusRangeCalculator`
+  - `BeerLambertTransmissionCalculator` (class, line 411) `class BeerLambertTransmissionCalculator`
+  - `HessianCurvatureEstimator` (class, line 442) `class HessianCurvatureEstimator`
+  - `LiDARPhysicsEngine` (class, line 517) `class LiDARPhysicsEngine`
+  - `TemporalCheckpointScanner` (class, line 690) `class TemporalCheckpointScanner`
+  - `PointCloudGenerator` (class, line 884) `class PointCloudGenerator`
+  - `WeightSpaceNavigator` (class, line 1066) `class WeightSpaceNavigator`
+  - `WeightSpaceLiDARCLI` (class, line 1447) `class WeightSpaceLiDARCLI`
+  - `main` (method, line 1707) `def main()`
+  - `debug` (method, line 170) `def debug(self, msg)`
+  - `info` (method, line 171) `def info(self, msg)`
+  - `warning` (method, line 172) `def warning(self, msg)`
+  - `error` (method, line 173) `def error(self, msg)`
+  - `create` (method, line 180) `def create(name, level)`
+  - `extract` (method, line 197) `def extract(self, checkpoint)`
+  - `get_layer_names` (method, line 201) `def get_layer_names(self, checkpoint)`
+  - `fit_transform` (method, line 210) `def fit_transform(self, data)`
+  - `transform` (method, line 214) `def transform(self, data)`
+  - `calculate` (method, line 223) `def calculate(self, origin, target)`
+  - `calculate` (method, line 232) `def calculate(self, path_integral, extinction)`
+  - `generate` (method, line 241) `def generate(self, weights, intensities, ranges)`
+  - `__init__` (method, line 254) `def __init__(self, config)`
+  - `extract` (method, line 258) `def extract(self, checkpoint)`
+  - `get_layer_names` (method, line 272) `def get_layer_names(self, checkpoint)`
+  - `_resolve_state_dict` (method, line 279) `def _resolve_state_dict(self, checkpoint)`
+  - `_is_weight_tensor` (method, line 286) `def _is_weight_tensor(self, name, tensor)`
+  - `_flatten_and_sample` (method, line 292) `def _flatten_and_sample(self, tensor)`
+  - `__init__` (method, line 307) `def __init__(self, config)`
+  - `fit_transform` (method, line 312) `def fit_transform(self, data)`
+  - `transform` (method, line 329) `def transform(self, data)`
+  - `get_explained_variance` (method, line 334) `def get_explained_variance(self)`
+  - `__init__` (method, line 343) `def __init__(self, config)`
+  - `fit_transform` (method, line 348) `def fit_transform(self, data)`
+  - `transform` (method, line 370) `def transform(self, data)`
+  - `__init__` (method, line 377) `def __init__(self, config)`
+  - `calculate` (method, line 383) `def calculate(self, origin, target)`
+  - `calculate_batch` (method, line 395) `def calculate_batch(self, origin, targets)`
+  - `__init__` (method, line 414) `def __init__(self, config)`
+  - `calculate` (method, line 418) `def calculate(self, path_integral, extinction)`
+  - `calculate_optical_depth` (method, line 424) `def calculate_optical_depth(self, gradients, weights)`
+  - `__init__` (method, line 445) `def __init__(self, config)`
+  - `estimate` (method, line 450) `def estimate(self, weights, loss_fn)`
+  - `_estimate_hessian_diagonal` (method, line 473) `def _estimate_hessian_diagonal(self, weights, loss_fn)`
+  - `_numerical_hessian_diag` (method, line 483) `def _numerical_hessian_diag(self, weights, loss_fn)`
+  - `_empirical_curvature_estimate` (method, line 505) `def _empirical_curvature_estimate(self, weights)`
+  - `__init__` (method, line 531) `def __init__(self, config)`
+  - `compute_return_signal` (method, line 538) `def compute_return_signal(self, origin_weights, target_weights, hessian_estimate, gradient_integral)`
+  - `compute_point_cloud` (method, line 577) `def compute_point_cloud(self, origin_weights, weight_matrix, reduction_result)`
+  - `_compute_backscatter` (method, line 613) `def _compute_backscatter(self, hessian_estimate, range_value)`
+  - `_compute_geometric_factor` (method, line 626) `def _compute_geometric_factor(self, range_value)`
+  - `_compute_received_power` (method, line 633) `def _compute_received_power(self, backscatter, transmission, geometric_factor, range_value)`
+  - `_compute_intensity` (method, line 652) `def _compute_intensity(self, power_received, range_value)`
+  - `_compute_intensity_field` (method, line 668) `def _compute_intensity_field(self, weight_matrix, ranges, origin)`
+  - `__init__` (method, line 696) `def __init__(self, config)`
+  - `scan_directory` (method, line 702) `def scan_directory(self, checkpoint_dir, sort_by)`
+  - `_find_checkpoint_files` (method, line 735) `def _find_checkpoint_files(self, directory)`
+  - `_sort_checkpoints` (method, line 741) `def _sort_checkpoints(self, files, method)`
+  - `_extract_epoch` (method, line 755) `def _extract_epoch(self, filepath)`
+  - `_extract_temporal_weights` (method, line 765) `def _extract_temporal_weights(self, checkpoint_files)`
+  - `_load_checkpoint` (method, line 797) `def _load_checkpoint(self, filepath)`
+  - `_compute_temporal_signals` (method, line 803) `def _compute_temporal_signals(self, temporal_data)`
+  - `_compute_trajectories` (method, line 832) `def _compute_trajectories(self, temporal_data)`
+  - `_simple_trajectory` (method, line 862) `def _simple_trajectory(self, weights)`
+  - `__init__` (method, line 887) `def __init__(self, config)`
+  - `generate_from_checkpoint` (method, line 892) `def generate_from_checkpoint(self, checkpoint_path, reduction_method)`
+  - `generate_from_weights` (method, line 906) `def generate_from_weights(self, flat_weights, layer_weights, reduction_method)`
+  - `_load_checkpoint` (method, line 937) `def _load_checkpoint(self, path)`
+  - `_extract_layer_weights` (method, line 943) `def _extract_layer_weights(self, checkpoint)`
+  - `_create_weight_vectors` (method, line 957) `def _create_weight_vectors(self, flat_weights, layer_weights)`
+  - `_create_synthetic_points` (method, line 982) `def _create_synthetic_points(self, weights)`
+  - `_apply_reduction` (method, line 998) `def _apply_reduction(self, weight_vectors, method)`
+  - `_simple_projection` (method, line 1015) `def _simple_projection(self, vectors)`
+  - `_post_process` (method, line 1025) `def _post_process(self, point_cloud)`
+  - `_remove_outliers` (method, line 1035) `def _remove_outliers(self, point_cloud)`
+  - `_normalize_coordinates` (method, line 1052) `def _normalize_coordinates(self, point_cloud)`
+  - `__init__` (method, line 1072) `def __init__(self, config)`
+  - `scan_checkpoints` (method, line 1081) `def scan_checkpoints(self, checkpoint_dir, sort_by)`
+  - `generate_point_cloud` (method, line 1093) `def generate_point_cloud(self, checkpoint_path, reduction_method)`
+  - `compute_range_map` (method, line 1105) `def compute_range_map(self, checkpoint_path, reference_path)`
+  - `temporal_evolution` (method, line 1136) `def temporal_evolution(self, checkpoint_dir)`
+  - `export_point_cloud` (method, line 1158) `def export_point_cloud(self, point_cloud, output_path, format)`
+  - `visualize_3d` (method, line 1179) `def visualize_3d(self, point_cloud, title, save_path)`
+  - `visualize_temporal` (method, line 1219) `def visualize_temporal(self, evolution_data, title, save_path)`
+  - `_load_checkpoint` (method, line 1276) `def _load_checkpoint(self, path)`
+  - `_compute_layer_ranges` (method, line 1282) `def _compute_layer_ranges(self, checkpoint, origin)`
+  - `_compute_evolution_metrics` (method, line 1308) `def _compute_evolution_metrics(self, trajectories, signals, epochs)`
+  - `_export_las` (method, line 1343) `def _export_las(self, point_cloud, output_path)`
+  - `_export_ply` (method, line 1367) `def _export_ply(self, point_cloud, output_path)`
+  - `_export_csv` (method, line 1394) `def _export_csv(self, point_cloud, output_path)`
+  - `_export_json` (method, line 1419) `def _export_json(self, point_cloud, output_path)`
+  - `__init__` (method, line 1450) `def __init__(self)`
+  - `_create_parser` (method, line 1453) `def _create_parser(self)`
+  - `run` (method, line 1558) `def run(self, args)`
+  - `_handle_scan` (method, line 1585) `def _handle_scan(self, navigator, args)`
+  - `_handle_cloud` (method, line 1617) `def _handle_cloud(self, navigator, args)`
+  - `_handle_range` (method, line 1647) `def _handle_range(self, navigator, args)`
+  - `_handle_evolution` (method, line 1668) `def _handle_evolution(self, navigator, args)`
+
