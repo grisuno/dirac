@@ -1,0 +1,10 @@
+[
+  {
+    "community_a": 0,
+    "community_b": 1,
+    "connection_type": "shares_context",
+    "explanation": "Inferred shared context (language py and layer utility) with no import path between community 0 (root) and community 1 (orphans).",
+    "strength": 0.5,
+    "confidence": "INFERRED"
+  }
+]

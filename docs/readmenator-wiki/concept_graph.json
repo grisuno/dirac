@@ -1,0 +1,1570 @@
+{
+  "concepts": [
+    {
+      "name": "weight",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "latent_space_visualizer.py",
+        "lidar_interactive_viewer.py",
+        "visualize_lidar_csv2.py",
+        "weight_3d_standard.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 52,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "space",
+      "files": [
+        "dirac_crystallography_suite.py",
+        "latent_space_visualizer.py",
+        "lidar_interactive_viewer.py",
+        "visualize_lidar_csv2.py",
+        "weight_3d_standard.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 35,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "generate",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "lidar_interactive_viewer.py",
+        "relativistic_hydrogen.py",
+        "weight_3d_standard.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 22,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "load",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "lidar_interactive_viewer.py",
+        "relativistic_hydrogen.py",
+        "weight_3d_standard.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 16,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "visualization",
+      "files": [
+        "dirac_crystallography_suite.py",
+        "lidar_interactive_viewer.py",
+        "relativistic_hydrogen.py",
+        "visualize_lidar_csv2.py",
+        "weight_3d_standard.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 15,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "compute",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "latent_space_visualizer.py",
+        "relativistic_hydrogen.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 74,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "metrics",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "latent_space_visualizer.py",
+        "weight_3d_standard.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 31,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "checkpoint",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py",
+        "weight_3d_standard.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 28,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "layer",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py",
+        "weight_3d_standard.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 20,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "point",
+      "files": [
+        "dirac_crystallography_suite.py",
+        "lidar_interactive_viewer.py",
+        "visualize_lidar_csv2.py",
+        "weight_3d_standard.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 20,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "extract",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "latent_space_visualizer.py",
+        "weight_3d_standard.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 19,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "apply",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py",
+        "weight_3d_standard.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 17,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "using",
+      "files": [
+        "dirac_crystal2.py",
+        "lidar_interactive_viewer.py",
+        "relativistic_hydrogen.py",
+        "weight_3d_standard.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 13,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "run",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "latent_space_visualizer.py",
+        "relativistic_hydrogen.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "calculator",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 27,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "dar",
+      "files": [
+        "lidar_interactive_viewer.py",
+        "visualize_lidar_csv2.py",
+        "weight_3d_standard.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 15,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "equation",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 14,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "evolution",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 14,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "network",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 14,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "visualize",
+      "files": [
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py",
+        "visualize_lidar_csv2.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 14,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "csv",
+      "files": [
+        "latent_space_visualizer.py",
+        "lidar_interactive_viewer.py",
+        "visualize_lidar_csv2.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "logger",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "batch",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "create",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "full",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "neural",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "level",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 7,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "visualizer",
+      "files": [
+        "dirac_crystallography_suite.py",
+        "latent_space_visualizer.py",
+        "relativistic_hydrogen.py",
+        "weight_3d_standard.py"
+      ],
+      "mentions": 7,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "dynamics",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "factory",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "config",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "latent_space_visualizer.py",
+        "relativistic_hydrogen.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "epoch",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "latent_space_visualizer.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "dirac",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py"
+      ],
+      "mentions": 66,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "hamiltonian",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py"
+      ],
+      "mentions": 22,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "spectral",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py"
+      ],
+      "mentions": 21,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "spinor",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py"
+      ],
+      "mentions": 20,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "energy",
+      "files": [
+        "dirac_crystal2.py",
+        "relativistic_hydrogen.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 19,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "alpha",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py"
+      ],
+      "mentions": 18,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "component",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py"
+      ],
+      "mentions": 17,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "cloud",
+      "files": [
+        "lidar_interactive_viewer.py",
+        "visualize_lidar_csv2.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 15,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "weights",
+      "files": [
+        "latent_space_visualizer.py",
+        "weight_3d_standard.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 14,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "calculate",
+      "files": [
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 13,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "operator",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py"
+      ],
+      "mentions": 13,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "standard",
+      "files": [
+        "dirac_crystal2.py",
+        "relativistic_hydrogen.py",
+        "weight_3d_standard.py"
+      ],
+      "mentions": 12,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "time",
+      "files": [
+        "dirac_crystal2.py",
+        "relativistic_hydrogen.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 12,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "interactive",
+      "files": [
+        "lidar_interactive_viewer.py",
+        "relativistic_hydrogen.py",
+        "weight_3d_standard.py"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "topological",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "curvature",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "weight_space_lidar.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "gamma",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "matrices",
+      "files": [
+        "dirac_crystal2.py",
+        "dirac_crystallography_suite.py",
+        "relativistic_hydrogen.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "relations": [
+    {
+      "source": "compute",
+      "target": "alpha",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "apply",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "batch",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "calculator",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "checkpoint",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "component",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "config",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "create",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "curvature",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "dirac",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "dynamics",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "energy",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "epoch",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "equation",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "evolution",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "extract",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "factory",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "full",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "gamma",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "generate",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "hamiltonian",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "layer",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "level",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "load",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "logger",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "matrices",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "metrics",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "network",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "neural",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "operator",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "run",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "spectral",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "spinor",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "standard",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "time",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "topological",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "using",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "compute",
+      "target": "weight",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "alpha",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "apply",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "batch",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "calculator",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "checkpoint",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "component",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "compute",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "create",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "curvature",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "dirac",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "dynamics",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "energy",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "epoch",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "equation",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "evolution",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "extract",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "factory",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "full",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "gamma",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "generate",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "hamiltonian",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "layer",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "level",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "load",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "logger",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "matrices",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "metrics",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "network",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "neural",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "operator",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "run",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "spectral",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "spinor",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "standard",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "time",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "topological",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "using",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "config",
+      "target": "weight",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "alpha",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "apply",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "batch",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "calculator",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "checkpoint",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "component",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "compute",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "config",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "create",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "curvature",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "dirac",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "dynamics",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "energy",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "epoch",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "equation",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "evolution",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "extract",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "factory",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "full",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "gamma",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "generate",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "hamiltonian",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "layer",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "level",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "latent_space_visualizer.py->dirac_crystal2.py"
+      ]
+    }
+  ],
+  "dialectic": [
+    "Thesis: `alpha` centralizes 3 files; Antithesis: `apply` pulls 5 files with 3 shared (Jaccard 0.60); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `alpha` centralizes 3 files; Antithesis: `batch` pulls 4 files with 3 shared (Jaccard 0.75); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `alpha` centralizes 3 files; Antithesis: `calculate` pulls 3 files with 2 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `alpha` centralizes 3 files; Antithesis: `calculator` pulls 4 files with 3 shared (Jaccard 0.75); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `alpha` centralizes 3 files; Antithesis: `checkpoint` pulls 5 files with 3 shared (Jaccard 0.60); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `alpha` centralizes 3 files; Antithesis: `component` pulls 3 files with 3 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `alpha` centralizes 3 files; Antithesis: `compute` pulls 5 files with 3 shared (Jaccard 0.60); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `alpha` centralizes 3 files; Antithesis: `config` pulls 4 files with 3 shared (Jaccard 0.75); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `alpha` centralizes 3 files; Antithesis: `create` pulls 4 files with 3 shared (Jaccard 0.75); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `alpha` centralizes 3 files; Antithesis: `curvature` pulls 3 files with 2 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `bridges` explicit?"
+  ]
+}
